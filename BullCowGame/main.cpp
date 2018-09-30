@@ -51,11 +51,10 @@ void PrintIntro()
 	std::cout << "  / | BULL |O            O| COW  | \\ " << std::endl;
 	std::cout << " *  |-,--- |              |------|  * " << std::endl;
 	std::cout << "    ^      ^              ^      ^ " << std::endl;
-	std::cout << " Can you guess the " << BCGame.GetHiddenWordLength();
-	std::cout << " letter isogram I'm thinking of?\n";
+	std::cout << " Can you guess the isogram I'm thinking of?\n";
 	std::cout << "\n Game Rules:\n\n";
 	std::cout << " Type in a word that is an isogram (A word with no repeating letters.) \n";
-	std::cout << " You have " << BCGame.GetMaxTries() << " turns to figure out the word!  \n";
+	std::cout << " You have a limited number of  turns to figure out the word!  \n";
 	std::cout << " A Bull shows how many letters you have correct ";
 	std::cout << " and  in the correct position. \n";
 	std::cout << " A Cow shows how many letters you have correct";
